@@ -4,11 +4,97 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MultiBot Solutions</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>🤖 Bienvenido a MultiBot Solutions</h1>
-  <p>Este es un chatbot de prueba para el proyecto universitario.</p>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <span class="bot-emoji">🤖</span>
+        <span class="brand">MultiBot Solutions</span>
+      </div>
+      <nav>
+        <a href="#sectores">Sectores</a>
+        <a href="#caracteristicas">Características</a>
+        <a href="#demo">Demo</a>
+      </nav>
+    </div>
+  </header>
 
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>🤖 Bienvenido a <span class="highlight">MultiBot Solutions</span></h1>
+          <p class="subtitle">Tu ecosistema de chatbots especializados para cada industria.</p>
+          <span class="cta-button disabled">Chatea aquí abajo ⬇️</span>
+        </div>
+        <div class="hero-illustration">
+          <img src="https://cdn.jsdelivr.net/gh/jvidesDev/multibot-solutions/assets/bot-illustration.svg" alt="Ilustración de chatbot" onerror="this.style.display='none'">
+        </div>
+      </div>
+    </section>
+
+    <section id="sectores" class="sectores">
+      <div class="container">
+        <h2>🌐 Sectores Cubiertos</h2>
+        <div class="sector-list">
+          <div class="sector-card">
+            <span class="sector-emoji">📊</span>
+            <h3>Contabilidad</h3>
+            <p>Resuelve dudas contables y encuentra información financiera fácilmente.</p>
+          </div>
+          <div class="sector-card">
+            <span class="sector-emoji">🍴</span>
+            <h3>Gastronomía</h3>
+            <p>Asiste a restaurantes y chefs con reservas, menús y recomendaciones.</p>
+          </div>
+          <div class="sector-card">
+            <span class="sector-emoji">🚗</span>
+            <h3>Transporte</h3>
+            <p>Optimiza rutas y atiende consultas de logística y movilidad.</p>
+          </div>
+          <div class="sector-card">
+            <span class="sector-emoji">🛠️</span>
+            <h3>Validación de Vehículos</h3>
+            <p>Verifica documentos y realiza validaciones automáticas de vehículos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="caracteristicas" class="features">
+      <div class="container">
+        <h2>⚡ Características</h2>
+        <ul class="features-list">
+          <li>Integración con <span class="highlight">IA</span> para respuestas inteligentes.</li>
+          <li>Conexión con <span class="highlight">WhatsApp</span> (opcional).</li>
+          <li>Chat en vivo incrustado como widget en tu web.</li>
+          <li>Interfaz moderna, rápida y adaptable.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="demo" class="demo">
+      <div class="container">
+        <h2>🎯 Prueba el Chatbot</h2>
+        <p>¡Interactúa con el chatbot usando el ícono de chat en la esquina inferior derecha!</p>
+        <div class="chat-widget">
+          <!-- El chat se abre automáticamente con el widget -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 MultiBot Solutions &middot; Proyecto universitario</p>
+    </div>
+  </footer>
+  <!-- Widget de chat en vivo -->
   <script src="https://cdn.pulse.is/livechat/loader.js" data-live-chat-id="68d5d26c9b52081f4e0bdf59" async></script>
 </body>
 </html>
